@@ -165,8 +165,3 @@ body {
 .drop-down:hover .navbar-link {
   border-bottom: 3px solid #191919;
 }
-
-/* SITE-MAIN-PART */
-.site-develop {
-  display: flex;
-}

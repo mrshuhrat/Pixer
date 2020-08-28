@@ -111,6 +111,7 @@ body {
 }
 .phone-num {
   margin-left: 16px;
+  white-space: nowrap;
 }
 .blue-link {
   padding: 8px 16px;
@@ -161,4 +162,36 @@ body {
 }
 .drop-down:hover .drop-down-menu {
   display: block;
+}
+
+.drop-down:hover .navbar-link {
+  border-bottom: 3px solid #191919;
+}
+
+/* SITE-MAIN-PART */
+.site-develop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-develop-text {
+  width: 456px; 
+}
+
+.develop-heading {
+  font-size: 30px;
+  line-height: 130%;
+  margin: 0;
+  padding: 0;
+}
+
+.develop-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.video {
+  margin: 80px 0;
+  border-radius: 5px;
 }

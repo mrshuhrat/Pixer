@@ -1,3 +1,22 @@
+/* FONTS */
+@font-face {
+  font-family: "Prodact Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: bold;
+  src: url("../fonts/ProductSans-Bold.woff2") format("woff2"),
+    url("../fonts/ProductSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/ProductSans-Regular.woff2") format("woff2"),
+    url("../fonts/ProductSans-Regular.woff") format("woff");
+}
+
+/* MAIN-CODES */
 html {
   box-sizing: border-box;
 }
@@ -13,6 +32,7 @@ body {
 }
 .container {
   max-width: 1148px;
+  padding: 0 24px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -29,4 +49,22 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+/* HEADER */
+.site-header {
+  position: sticky;
+  background-color: #fff;
+  z-index: 10;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.site-navbar {
+  display: flex;
+}
+.heder-right-part {
+  display: flex;
+}
+.site-navigation {
+  display: flex;
+  list-style-type: none;
 }

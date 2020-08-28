@@ -59,11 +59,11 @@ body {
   background-color: #fff;
   z-index: 10;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 8px 0;
   height: 56px;
 }
 .site-navbar {
   display: flex;
+  padding: 8px 0;
   align-items: center;
 }
 .heder-right-part {
@@ -92,12 +92,16 @@ body {
 }
 .navbar-link {
   position: relative;
-  padding: 13px 16px;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-decoration: none;
   color: #000;
   transition: 0.3s ease;
+  border-bottom: 3px solid transparent
 }
-.navbar-link:hover {
+.navbar-link:hover{
   border-bottom: 3px solid #191919;
 }
 .navbar-link:active {
@@ -128,8 +132,9 @@ body {
   color: #fff;
 }
 .drop-down-menu {
+  display: none;
   position: absolute;
-  top: 180%;
+  top: 170%;
   left: -10px;
   margin: 0;
   width: 124px;
@@ -153,4 +158,7 @@ body {
 }
 .drop-down-link:active {
   opacity: 0.6;
+}
+.drop-down:hover .drop-down-menu {
+  display: block;
 }

@@ -168,5 +168,5 @@ body {
 
 /* SITE-MAIN-PART */
 .site-develop {
-  display: fili
+  display: flex;
 }

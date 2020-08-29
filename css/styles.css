@@ -256,6 +256,8 @@ body {
   justify-content: center;
 }
 .cervices-section-item {
+  display: flex;
+  flex-direction: column;
   margin: 24px 0;
   margin-right: 70px;
 }
@@ -264,6 +266,7 @@ body {
   margin-right: 0;
 }
 .cervices-section-link {
+  flex-grow: 1;
   display: inline-block;
   width: 320px;
   padding: 24px;

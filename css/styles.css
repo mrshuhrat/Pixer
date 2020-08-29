@@ -56,6 +56,7 @@ body {
 /* HEADER */
 .site-header {
   position: sticky;
+  top: 0;
   background-color: #fff;
   z-index: 10;
   padding: 8px 0;
@@ -174,25 +175,30 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-
 .site-develop-text {
   width: 456px;
 }
-
 .develop-heading {
   font-size: 30px;
   line-height: 130%;
   margin: 0;
   padding: 0;
 }
-
 .develop-text {
+  margin: 0;
+  padding: 16px 0;
   font-size: 16px;
   line-height: 24px;
 }
-
+.page-link:hover {
+  margin-top: 16px;
+  background-color: rgba(0, 186, 252, 0.8);
+}
+.page-link:active {
+  background-color: rgba(0, 186, 252, 0.6);
+}
 .video {
   margin: 80px 0;
   border-radius: 5px;
-
+  border: none;
 }

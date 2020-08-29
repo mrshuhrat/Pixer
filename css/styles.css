@@ -249,6 +249,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+.cervices-section-item {
+  margin: 24px 0;
+  margin-right: 70px;
+}
+.cervices-section-item:nth-child(3),
+.cervices-section-item:nth-child(5) {
+  margin-right: 0;
 }
 .cervices-section-link {
   display: inline-block;
@@ -256,10 +266,18 @@ body {
   padding: 24px;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 48px;
   color: #222;
   background-color: #FFFFFF;
   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+.cervices-section-link:hover {
+  box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+.cervices-section-link:active {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 .cervices-section-link h4 {
   margin: 16px 0;
@@ -286,7 +304,7 @@ body {
   background-image: url("../img/services-second-img.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center  ;
+  background-position: center center;
   content: "";
 }
 .cervices-section-link-third::before {
@@ -321,4 +339,18 @@ body {
   background-repeat: no-repeat;
   background-position: center center  ;
   content: "";
+}
+.cervices-section-main-link {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.service-go-link {
+  text-decoration: none;
+  color: #00BAFC;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 16px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #00BAFC;
 }

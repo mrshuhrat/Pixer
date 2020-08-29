@@ -221,7 +221,104 @@ body {
   background-color: rgba(0, 186, 252, 0.6);
 }
 .video {
+  width: 458px;
+  height: 258px;
   margin: 80px 0;
   border-radius: 5px;
   border: none;
+}
+/* CERVICES */
+.cervices-section {
+  padding: 56px 0;
+}
+.cervices-section-main {
+  width: 719px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.cervices-section-header {
+  margin: 0;
+  padding-bottom: 16px;
+}
+.cervices-section-text {
+  margin: 0;
+  padding-bottom: 16px;
+}
+.cervices-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.cervices-section-link {
+  display: inline-block;
+  width: 320px;
+  padding: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  background-color: #FFFFFF;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.cervices-section-link h4 {
+  margin: 16px 0;
+}
+.cervices-section-link p {
+  margin: 0;
+}
+.cervices-section-link-first::before {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+  background-image: url("../img/services-first-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center  ;
+  content: "";
+}
+.cervices-section-link-second::before {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+  background-image: url("../img/services-second-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center  ;
+  content: "";
+}
+.cervices-section-link-third::before {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+  background-image: url("../img/services-third-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center  ;
+  content: "";
+}
+.cervices-section-link-fourth::before {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+  background-image: url("../img/services-fourth-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center  ;
+  content: "";
+}
+.cervices-section-link-fifith::before {
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  width: 100%;
+  background-image: url("../img/services-fifith-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center  ;
+  content: "";
 }

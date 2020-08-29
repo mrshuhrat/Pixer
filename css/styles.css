@@ -41,6 +41,9 @@ html {
 *::after {
   box-sizing: inherit;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
@@ -285,60 +288,31 @@ body {
 .cervices-section-link p {
   margin: 0;
 }
-.cervices-section-link-first::before {
+
+.cervices-section-link::before {
   display: flex;
   flex-direction: column;
   height: 130px;
   width: 100%;
-  background-image: url("../img/services-first-img.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center  ;
   content: "";
+}
+.cervices-section-link-first::before {
+  background-image: url("../img/services-first-img.png");
 }
 .cervices-section-link-second::before {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  width: 100%;
   background-image: url("../img/services-second-img.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-  content: "";
 }
 .cervices-section-link-third::before {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  width: 100%;
   background-image: url("../img/services-third-img.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center  ;
-  content: "";
 }
 .cervices-section-link-fourth::before {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  width: 100%;
   background-image: url("../img/services-fourth-img.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center  ;
-  content: "";
 }
 .cervices-section-link-fifith::before {
-  display: flex;
-  flex-direction: column;
-  height: 130px;
-  width: 100%;
   background-image: url("../img/services-fifith-img.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center  ;
-  content: "";
 }
 .cervices-section-main-link {
   text-align: center;
@@ -353,4 +327,28 @@ body {
   margin-left: 16px;
   padding-bottom: 3px;
   border-bottom: 2px solid #00BAFC;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .cervices-section-link-first::before {
+    background-image: url("../img/services-first-img@2x.png");
+  }
+  .cervices-section-link-second::before {
+    background-image: url("../img/services-second-img@2x.png");
+  }
+  .cervices-section-link-third::before {
+    background-image: url("../img/services-third-img@2x.png");
+  }
+  .cervices-section-link-fourth::before {
+    background-image: url("../img/services-fourth-img@2x.png");
+  }
+  .cervices-section-link-fifith::before {
+    background-image: url("../img/services-fifith-img@2x.png");
+  }
 }

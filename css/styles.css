@@ -443,3 +443,60 @@ only screen and (                min-resolution: 2dppx) {
     background-image: url("../img/work-fifith-img@2x.png");
   }
 }
+
+.order {
+  background-color: #00BAFC;
+  color: #fff;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.order-heading {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.order-paragraph {
+  margin: 0;
+}
+
+.form-container {
+  width: 348px;
+  background-color: #fff;
+  padding: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+  border-radius: 5px;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: #F3F3F3;
+  border:none;
+  border-radius: 5px;
+}
+
+.form-select {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 20px;
+  background-color: #F3F3F3;
+  border:none;
+  border-radius: 5px;
+}
+
+.form-button {
+  display: block;
+  padding: 8px 16px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #00BAFC;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer
+}

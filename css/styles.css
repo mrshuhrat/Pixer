@@ -489,7 +489,7 @@ only screen and (                min-resolution: 2dppx) {
 .form-select {
   width: 100%;
   margin-bottom: 16px;
-  padding: 20px;
+  padding: 16px;
   background-color: #F3F3F3;
   border:none;
   border-radius: 5px;

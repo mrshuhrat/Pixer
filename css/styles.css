@@ -129,6 +129,10 @@ body {
   transition: 0.3s ease;
   border-bottom: 3px solid transparent
 }
+
+.current {
+  border-bottom: 3px solid #191919;
+}
 .navbar-link:hover{
   border-bottom: 3px solid #191919;
 }
@@ -327,7 +331,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.service-go-link {
+.underline-link {
   text-decoration: none;
   color: #00BAFC;
   font-size: 16px;
@@ -578,4 +582,112 @@ only screen and (                min-resolution: 2dppx) {
 }
 .we-in-net-link-name {
   margin-left: 8px;
+}
+
+/* ====================
+    SERVICE PAGE STYLES
+ ==================== */
+.service-page-text {
+  width: 800px;
+  padding: 72px 0;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.service-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 40px;
+  line-height: 130%;
+}
+.service-paragraph {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+.service-page-main {
+  background-color: #f4f4f4;
+}
+.service-page-list {
+  margin: 0;
+  padding: 80px 0;
+  list-style-type: none;
+}
+.service-page-list-item {
+  display: flex;
+  max-width: 805px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+  background-color: #fff;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+.service-page-list-item:not(:last-child) {
+  margin-bottom: 64px;
+}
+.list-item-right-part {
+  width: 500px;
+  margin-left: auto;
+  position: relative;
+}
+.list-item-right-part::before {
+  position: absolute;
+  display: block;
+  width: 200px;
+  right: 107%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  content: "";
+}
+.service-one::before {
+  height: 128px;
+  background-image: url("../img/services-first-img.png");
+}
+.service-two::before {
+  height: 117px;
+  background-image: url("../img/services-second-img.png");
+}
+.service-three::before {
+  height: 147px;
+  background-image: url("../img/services-third-img.png");
+}
+.service-four::before {
+  height: 145px;
+  background-image: url("../img/services-fourth-img.png");
+}
+.service-five::before {
+  height: 188px;
+  background-image: url("../img/services-fifith-img.png");
+}
+.right-part-heading {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 20px;
+  line-height: 130%;
+}
+.right-part-text {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.right-part-list {
+  padding: 0;
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+.right-part-iteam {
+  display: flex;
+  align-items: center;
+}
+.right-part-iteam::before {
+  margin-right: 8px;
+  width: 12px;
+  height: 12px;
+  background-color: #00BAFC;
+  border-radius: 12px;
+  content: "";
 }

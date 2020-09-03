@@ -505,7 +505,14 @@ only screen and (                min-resolution: 2dppx) {
   border: none;
   outline: none;
   border-radius: 5px;
-  cursor: pointer
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.form-button:hover {
+  opacity: 0.8;
+}
+.form-button:active {
+  opacity: 0.6;
 }
 
 /* FOOTER */

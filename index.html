@@ -14,7 +14,7 @@
   ================ -->
   <header class="site-header">
     <div class="container site-header-container">
-      <a class="site-logo" href="index.html"><img src="img/site-logo.svg" alt="site logo icon" width="58" height="20"></a>
+      <a class="site-logo" href="index.html"><img class="logo-img" src="img/site-logo.svg" alt="site logo icon" width="58" height="20"></a>
       <nav class="site-navbar">
         <ul class="site-navigation">
           <li class="drop-down">
@@ -95,7 +95,7 @@
             </li>
           </ul><!-- cervices-section-list -->
           <div class="cervices-section-main-link">
-            <a class="blue-link page-link" href="#">Buyurtma berish</a>
+            <a class="blue-link page-link" href="#orderto">Buyurtma berish</a>
             <a class="service-go-link" href="#">Xizmatlar sahifasiga o'tish</a>
           </div><!-- cervices-section-link -->
         </section><!-- cervices-section -->
@@ -139,7 +139,7 @@
             </li>
           </ol>
           <div class="work-section-link">
-            <a class="blue-link page-link" href="#order">Buyurtma berish</a>
+            <a class="blue-link page-link" href="#orderto">Buyurtma berish</a>
           </div>
         </section>
       </div>
@@ -148,7 +148,7 @@
     <!-- ============
               ORDER
     ==============-->
-    <section class="order">
+    <section id="orderto" class="order">
       <div class="container">
         <div class="sections-text">
           <h3 class="order-heading">Buyurtma berish</h3>
@@ -156,7 +156,7 @@
         </div>
 
         <form class="form-container">
-          <input class="form-input" type="text" placeholder="Ismingiz">
+          <input name="Ismingiz" required class="form-input" type="text" placeholder="Ismingiz">
           <input class="form-input" type="tel" placeholder="Telefon raqamingiz">
           <select class="form-select" name="xizmat-turi" id="">
             <option aria-disabled="false">Xizmat turi</option>
